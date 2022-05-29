@@ -1,11 +1,10 @@
 # Face_Recognition
 Microsoft Engage 2022 Project
-# Face Verification Based Attendance System
+# Face Recognition Based Attendance System
 ## About
-In this Attendance System the attendance for students is marked using Face verification. The Faculty has the permission to take Attendance, add a student, modify student details. The Faculty can also search for attendance of a student using Multiparameter Search, by specifying the student ID, date of attendance, period of Attendance.<br>
-The credentials for the Faculty are provided by the superuser who has access to the whole database. Only the superuser can update the attendance of a student.<br>
+In this Attendance System the attendance for employee is marked using Face verification. The User has the permission to take Attendance, add a employee, modify employee details. The User can also see the attendance history of a employee using history option, date of attendance, period of Attendance.<br>
 **Django** web framework was used for the development of the whole web app. **OpenCv and face_recognition API's** were used for the development of Face Recognizer. The Face Recognizer can detect multiple faces at a time and mark their attendance into Database.<br>
-**Note: Python version 3.6 was used for this project. And the dlib package required for installation of face_recognition api is also uploaded.**<br>
+**Note: Python version 3.10.4 was used for this project. And the dlib package required for installation of face_recognition api is also uploaded.**<br>
 To run the web app on your local computer, install the required libraries([requirements.txt]) using the command:<br>
 ```python
 pip3 install -r requirements.txt
